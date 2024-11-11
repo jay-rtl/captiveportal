@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Responsive Layout</title>
+</head>
+<body class="portal">
+    <!-- Logo area -->
+    <div class="logo-img">
+        <img class="logo" src="logo.png" alt="Logo">
+    </div>
+
+    <!-- Content area -->
+    <div id="content"></div>
+
+    <!-- Button Area -->
+    <div id="button-area">
+        <button id="button-login" class="button oper-section-item">Log In</button>
+    </div>
+
+    <!-- Modal box -->
+    <div id="modal-box" class="modal">
+        <div class="modal-content">
+            <h2 id="modal-title">Term Of Use</h2>
+            <p id="modal-text">
+                These Wi-Fi Terms of Use ("Wi-Fi Terms") govern your use of the free Wi-Fi service ("Wi-Fi Service") provided by AWCC.  Provision of Wi-Fi Services 1.1 By using and/or activating the Wi-Fi Service by clicking on the "CONTINUE" button on the login page, you agree to be bound by these Wi-Fi Terms. We may modify the Wi-Fi Terms at any time and in our sole discretion. If you do not agree to these Wi-Fi Terms, please do not use the Wi-Fi Service.  1.2 The Wi-Fi Service will be provided on an "as is" basis. We do not warrant or guarantee that the Wi-Fi Service is fault-free, fit for any particular purpose, or secure. Nor do we guarantee any specific rates of internet speed or any permanent/reliable or steady service. Your access to the Wi-Fi Service may be blocked, suspended, or terminated at any time and for any reason. AWCC also has no control over information obtained through the internet and cannot be held responsible for its content or accuracy. You assume all responsibility and risk for use of the Wi-Fi Service.  1.3 AWCC will try to make the Wi-Fi Service available, but it may be interrupted, limited, or terminated due to maintenance, repair work, and/or any other disruptions. AWCC is not responsible for data, messages, or pages that you may lose or that become misdirected because of interruptions or performance issues with the Wi-Fi Service.  1.4 The Wi-Fi Terms only apply with respect to your use of the Wi-Fi Service and do not alter any other agreements or legal relationships between you and AWCC. in any way the terms or conditions of any other agreement you may have with us for our products, services or otherwise.  1.5 You agree to indemnify and hold AWCC harmless against any liability for any loss, damage, costs, or injury which you may sustain or which may be claimed against us by you or any third party, as a result of or in connection with your use of the Wi-Fi Service.  1.6 If these Wi-Fi Terms are unacceptable to you, your only right and recourse will be to terminate your use of the Wi-Fi Service.
+
+                Your Use of the Wi-Fi Services: 2.1 You acknowledge and accept that wireless internet access is inherently not secure, and you are solely responsible for adopting appropriate security measures when using the Wi-Fi Service. By connecting your Device to the internet through the Wi-Fi Service, you may expose your device to worms, viruses, Trojan horses, denial-of-service attacks, intrusions, packet-sniffing, and other abuses by third-parties. You hereby release us from any liability for any loss, damage, costs, or injury which you may sustain as a result of your access to the internet using the Wi-Fi Service.
+
+                2.2 Your use of the Wi-Fi Service is subject to your acceptance of and compliance with the following conditions:
+
+                a) You must not use the Wi-Fi Service in a manner which would: violate any law; or infringe any copyright, trademark, trade secret, right of publicity, privacy right, or any other right of any person or entity; or be used for any immoral or improper purpose.
+
+                b) You must not use the Wi-Fi Service to make offensive or nuisance communications in whatever form; such unacceptable usage includes posting, transmitting, uploading, downloading or otherwise facilitating any content that is unlawful, defamatory, threatening, obscene, racist, sexist, hateful, abusive, harmful (including but not limited to viruses, corrupted files, or any other similar software or programs), a breach of privacy, or which is otherwise objectionable.
+
+                c) You must not act nor knowingly permit others to act in such a way which would (i) circumvent or subvert our system or network security measures; or (ii) jeopardize or impair the operation of the Wi-Fi Service or our systems.
+
+                d) Your use of the Wi-Fi Service is for your personal use only and must not be utilized for any commercial purposes, whether for profit or otherwise.
+            </p>
+
+            <div id="terms">
+                <input type="checkbox" id="terms-checkbox">
+                <label for="terms-checkbox">I accept the Terms of Use</label>
+            </div>
+
+            <button id="accept-button" class="button" disabled>Accept</button>
+            <!-- Loading spinner -->
+            <div id="loading-spinner" class="loading-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Connection message (appears above) -->
+    <div id="connection-message" class="connection-message">
+        You are connected.
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
